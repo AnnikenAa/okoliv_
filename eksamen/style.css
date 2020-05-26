@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*meny*/
+
+header{
+    width: 100%;
+    position:absolute;
+    z-index: 12;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;  
+    
+}
+
+.menu h4{
+    float: left;
+    padding-left: 8.333%;
+    padding-top: 6.5%;
+    color: #5B718A;
+    font-size: 5vw;
+    font-family: 'Biryani', sans-serif;
+}
+
+.menu h4 a{
+    text-decoration: none;
+    display: block;
+    color: #5B718A;
+}
+
+.menu h4 a:hover{
+    opacity: 80%;
+    color: #5B718A;
+    
+}
+
+.menu h4 a:active{
+    opacity: 100%;
+    color: white;
+}
+
+
+
+.menu ul li{
+    list-style-type: none;
+    float: right;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.2vw;
+    padding: 1.667%;
+    padding-top: 10%;
+}
+
+.menu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+.menu ul li a:hover{
+    opacity: 50%;
+}
+
+.menu ul li a:active{
+    opacity: 100%;
+    color: white;
+}
+
+#kontaktmeny{
+    padding-right: 
+}
+
+
+/*header*/
+
+#header img{
+    width: 100%;
+    height: auto;
+    padding-left: 8.333%;
+    padding-right: 8.333%;
+    padding-bottom: 0%;
+   
+}
+
+
+
+
+/*innhold forside*/
+
+h5{
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 3vw;
+    color: #9cbdbe;
+    text-align:inherit;
+}
+
+
+
+#okoinfo h5{
+    padding-left: 8.333%;
+}
+
+.overskrift h5{
+    text-align: center;
+}
+
+.overskrift h6{
+    padding-top: 20.833%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif ;
+    color: grey;
+    font-size: 1.2vw;  
+}
+
+
+hr{
+    border: 0.1px solid black;
+    width: 84.4%;
+    text-align: center;
+   
+}
+
+.hoveddel section{
+    padding-top: 0%;
+}
+
+#okoinfo{
+    padding-bottom: 20.833%;
+}
+
+#okoinfo p{
+     width: 60%;
+    float: right;
+    padding-right: 15.83%;
+    padding-top: 2.5%;
+    text-align: justify;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+    color: black;
+    font-size: 1.2vw;
+}
+
+#okoinfo div{
+    width: 40%;
+    float: left;
+    padding-left: 9.167%;
+    padding-top: 10%;
+    padding-bottom: 3.75%;
+    text-align: justify;
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+    font-size: 3vw;
+
+}
+
+#infografikk div{
+    padding-top: 4.167%;
+    padding-bottom: 4.167%;
+    padding-left: 33.333%;
+    padding-right: 8.333%;
+}
+
+#infografikk img{
+    height: auto;
+
+}
+
+
+
+
+#contact{
+    padding-top: 0.833%;
+    padding-left: 8.333%;
+}
+
+#contact-form{
+   padding-left: 20.833%;
+    padding-right: 20.833%;
+    padding-bottom: 4%;
+    height: auto;
+    float: inherit;
+    padding-top: 0.833%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+}
+
+
+.form-group{
+    font-size: 1.2vw;
+}
+
+#form_name{
+    font-size: 1.2vw;
+}
+
+#form_email{
+    font-size: 1.2vw;
+}
+
+#form_message{
+    font-size: 1.2vw;
+}
+    
+
+
+#submit{
+    text-align: center;
+    text-decoration: none;
+    font-family:'Source sans pro', sans-serif;
+    font-size: 1.2vw;
+    padding-top: 20px;
+}
+
+
+
+.col-md-4 a:hover{
+    opacity: 50%;
+    
+}
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+button{
+    font-family: 'Source sans pro', sans-serif ;
+    text-decoration: none;
+    color: black;
+    font-size:  1.2vw;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.col-md-4 p{
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif ;
+    font-size: 1.2vw;
+}
+
+
+.wrapper{
+    
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-img-top{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    color: #5c7289;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: 'Biryani', sans-serif;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.wrapper:hover img{
+    opacity: 0.5;
+}
+
+.wrapper:hover .overlay{
+    opacity: 1;
+    
+}
+
+
+
+.insta a:hover{
+    opacity: 70%;
+}
+
+.insta img{
+    width: 16.3%;
+    height: auto;
+}
+
+
+.insta{
+    padding-left: 0.45%;
+    padding-bottom: 2.083%;
+    padding-top: 1.083%;
+}
+
+.hoveddel{
+    background-color: #f8f9fa;
+}
+
+
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: white; 
+    padding-top: 0%;
+    padding-bottom: 2%;
+    text-decoration: none;
+    font-family: 'Source sans pro', sans-serif;
+    font-size: 1.2vw;
+}
+    
+.footerkontakt p a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footerkontakt p a:hover{
+    opacity: 50%;
+    
+}
+
+.footerkontakt p a:active{
+    opacity: 100%;
+    color: white;
+}
+
+.instagramfooter p a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: #9cbdbe;
+}
+
+.instagramfooter p a:hover{
+    opacity: 50%;
+    
+}
+
+.instagramfooter p a:active{
+    opacity: 100%;
+    color: white;
+}
+
+/*hvis skjemstørrelsen er 767px eller mindre skal disse endringene skje*/
+@media only screen and (max-width: 767px) {
+  div.content {
+    font-size: 4.5vw;
+  }
+    
+div.card-body p{
+    font-size: 2vw;
+  }
+    
+div.card-body button{
+    font-size: 2vw;
+  }
+    
+div.infografikk img{
+    width: 100%;
+    padding-left: 8.333%;
+    padding-right: 8.333%;
+    }
+    
+div.infografikk hr{
+      padding-top: 0px;
+    }
+    
+div.overskrift h6{
+        font-size: 2vw;
+    }
+    
+div.overskrift h5{
+        font-size: 4.5vw;
+    }
+    
+nav.menu h4{
+        font-size: 6vw;
+    }
+    
+nav.menu ul li{
+    font-size: 2vw;
+    padding-left: 0px;
+    padding-top: 10%;
+    }
+    
+#kontaktmeny{
+    padding-right: 9%;
+    
+    }
+    
+#okoinfo p{
+    font-size: 2vw;
+    padding-right: 9.1667%;
+    }
+
+#okoinfo{
+    padding-top: 2%;    
+    padding-bottom: 37%;
+    }
+
+
+div.insta{
+        padding-left: 20px;
+    }
+
+footer{
+        font-size: 2vw;
+    }
+    
+h5{
+    font-size: 4.5vw;
+    }
+    
+p{
+    font-size: 2vw;
+    }
+
+
+.form-group{
+    font-size: 2vw;
+}
+
+#form_name{
+    font-size: 2vw;
+}
+
+#form_email{
+    font-size: 2vw;
+}
+
+#form_message{
+    font-size: 2vw;
+}
+    
+#knapp{
+    font-size: 2vw;
+}
+}
+
+/*hvis skjemstørrelsen er 767px eller større skal disse endringene skje*/
+@media only screen and (min-width: 767px) {
+div.infografikk img{
+    width: 70%;
+    padding-left: 30%;
+    }
+#kontaktmeny{
+    padding-right: 8.6%;
+    }
+nav.menu ul li{
+    font-size: 1.2vw;
+    }
+
+}
+
+/* Hvis skjemstørrelsen er 960px eller mindre, skal instagrambildene ikke synes */
+@media screen and (max-width: 960px) {
+  .insta {
+    display: none;
+  }
+}
+
+/* Hvis skjemstørrelsen er 960px eller større, skal instagramfølgingen skjules */
+@media screen and (min-width: 960px) {
+  .instagramfooter {
+    display: none;
+  }
+}
+
+
